@@ -1,3 +1,4 @@
+import AdvancedSidebar from "./components/AdvancedSidebar";
 import Carousel from "./components/Carousel";
 import DraggableCard from "./components/DraggableCard";
 import Loader from "./components/Loader";
@@ -6,20 +7,11 @@ import ScrollIndicator from "./components/ScrollIndicator";
 const App = () => {
   return (
     <div>
-      {/* <h1 className="text-center p-5 text-xl font-bold text-teal-500 drop-shadow-md drop-shadow-teal-500">
-        First Project
-      </h1>
-      <ScrollIndicator /> */}
+      {/*<ScrollIndicator /> */}
 
-      {/* <h1 className="text-center p-5 text-xl font-bold text-teal-500 drop-shadow-md drop-shadow-teal-500">
-        Second Project
-      </h1>
-      <Loader /> */}
+      {/*<Loader /> */}
 
-      {/* <h1 className="text-center p-5 text-xl font-bold text-teal-500 drop-shadow-md drop-shadow-teal-500">
-        Third Project
-      </h1>
-      <div className="flex items-center justify-center h-[100vh]">
+      {/* <div className="flex items-center justify-center h-[100vh]">
         <DraggableCard
           style={{
             background: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -43,11 +35,12 @@ const App = () => {
         </DraggableCard>
       </div> */}
 
-      <h1 className="text-center p-5 text-xl font-bold text-teal-500 drop-shadow-md drop-shadow-teal-500">
-        Fourth Project
-      </h1>
-      <div className="flex items-center justify-center h-screen">
+      {/* <div className="flex items-center justify-center h-screen">
         <Carousel />
+      </div>  */}
+
+      <div className="flex justify-center items-center h-screen w-full">
+        <AdvancedSidebar />
       </div>
     </div>
   );
