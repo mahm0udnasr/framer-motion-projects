@@ -1,5 +1,4 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import { p } from "framer-motion/client";
 
 const ScrollIndicator = () => {
   const { scrollYProgress } = useScroll();
