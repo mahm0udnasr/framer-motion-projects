@@ -1,7 +1,14 @@
+import ScrollIndicator from "./components/ScrollIndicator";
+
 const App = () => {
   return (
-    <div className='text-3xl font-bold underline'>App</div>
-  )
-}
+    <div>
+      <h1 className="text-center p-5 text-xl font-bold text-teal-500 drop-shadow-md drop-shadow-teal-500">
+        First Project
+      </h1>
+      <ScrollIndicator />
+    </div>
+  );
+};
 
-export default App
+export default App;
