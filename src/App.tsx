@@ -2,6 +2,7 @@ import AdvancedSidebar from "./components/AdvancedSidebar";
 import Carousel from "./components/Carousel";
 import DraggableCard from "./components/DraggableCard";
 import Loader from "./components/Loader";
+import ProgressSteps from "./components/ProgressSteps";
 import ScrollCarousel from "./components/ScrollCarousel";
 import ScrollIndicator from "./components/ScrollIndicator";
 import StickyNav from "./components/StickyNav";
@@ -47,7 +48,8 @@ const App = () => {
 
       {/* <ScrollCarousel /> */}
 
-      <StickyNav />
+      {/* <StickyNav /> */}
+      <ProgressSteps />
     </div>
   );
 };
