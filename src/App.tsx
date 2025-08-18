@@ -4,6 +4,7 @@ import DraggableCard from "./components/DraggableCard";
 import Loader from "./components/Loader";
 import ScrollCarousel from "./components/ScrollCarousel";
 import ScrollIndicator from "./components/ScrollIndicator";
+import StickyNav from "./components/StickyNav";
 
 const App = () => {
   return (
@@ -46,7 +47,7 @@ const App = () => {
 
       {/* <ScrollCarousel /> */}
 
-      
+      <StickyNav />
     </div>
   );
 };

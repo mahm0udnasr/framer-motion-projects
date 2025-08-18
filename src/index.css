@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
-body {
+/* body {
   background-color: #0d1017;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   height: auto;
-}
+} */
 
-button {
+/* use with some components only */
+
+/* button {
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
   padding: 10px;
@@ -24,4 +26,4 @@ button {
 
 button:hover {
   background-color: rgba(0, 0, 0, 0.7);
-}
+} */
