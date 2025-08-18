@@ -2,6 +2,7 @@ import AdvancedSidebar from "./components/AdvancedSidebar";
 import Carousel from "./components/Carousel";
 import DraggableCard from "./components/DraggableCard";
 import Loader from "./components/Loader";
+import ScrollCarousel from "./components/ScrollCarousel";
 import ScrollIndicator from "./components/ScrollIndicator";
 
 const App = () => {
@@ -39,9 +40,13 @@ const App = () => {
         <Carousel />
       </div>  */}
 
-      <div className="flex justify-center items-center h-screen w-full">
+      {/* <div className="flex justify-center items-center h-screen w-full">
         <AdvancedSidebar />
-      </div>
+      </div> */}
+
+      {/* <ScrollCarousel /> */}
+
+      
     </div>
   );
 };
